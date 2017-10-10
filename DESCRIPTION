@@ -1,0 +1,16 @@
+Package: ggNorthwestern
+Type: Package
+Title: Northwestern themed ggplot2 layers
+Version: 0.1
+Authors@R: person("Eric", "Chang", email = "ericchang00@gmail.com", role = c("aut", "cre"))
+Maintainer: Eric Chang <ericchang00@gmail.com>
+Description: For ggplot2 users that want to show some purple pride.
+Depends: R (>= 3.1.0)
+Encoding: UTF-8
+LazyData: true
+Imports:
+  ggplot2 (>= 2.0.0),
+  scales
+Collate: 
+    'colors.R'
+    'layers.R'
